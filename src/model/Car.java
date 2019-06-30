@@ -24,3 +24,16 @@ public class Car {
         return velocity;
     }
 }
+class P {
+    int accelerate(int liczba) {
+        liczba = liczba + 5;
+        return liczba;
+    }
+
+    class D {
+        int decrease(int liczba) {
+            liczba = liczba - 5;
+            return liczba;
+        }
+    }
+}
